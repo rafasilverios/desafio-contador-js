@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <section>
+        <img src="assets/img/banco-inter.png" alt="Logo Banco Inter" width="100px">
+        <div>
+            <h1>Parcelas do Empréstimo</h1>
+        </div>
+        <div>
+            <p>Quantas parcelas você pode pagar?</p>
+        </div>
+    </section>
+    <aside>
+        <div>
+            <span id="currentNumber">10</span>
+        </div>
+    </aside>
+    <aside>
+        <div id="counter">
+            <button class="button" name="subtrair" onclick="decrement10(); textdec10()">-10</button>
+            <button class="button" name="subtrair" onclick="decrement1(); textdec1()">-1</button>
+            <button name="adicionar" onclick="increment1(); textinc1()">+1</button>
+            <button name="adicionar" onclick="increment10(); textinc10()">+10</button>
+        </div>
+    </aside>
+    <aside>
+        <div>
+            <p id="text"></p>
+        </div>
+    </aside>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

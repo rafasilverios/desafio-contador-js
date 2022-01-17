@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;wght@600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f6fa;
+    color: #f87d0a;
+    margin-top: 20px;
+    padding-top: 15px;
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+/*título do contador*/
+h1 {
+    font-size: 30px;
+}
+
+/*caixa onde está o número de meses*/
+aside div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f6fa;
+    color: #f87d0a;
+    padding-bottom: 15px;
+    height: 100%;
+    width: 400px;
+}
+
+/*caixa onde os botões estão*/
+#counter { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6fa;
+    width: 400px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6fa;
+    color: #f87d0a;
+    width: 400px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button {
+    height: 95px;
+    width: 95px;
+    border: 1px solid #f87d0a;
+    border-radius: 15px;
+    margin: 1px;
+    margin-bottom: 10px;
+    background-color: #f87d0a;
+    color: #fff;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    text-align: center;
+}
