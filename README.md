@@ -3,6 +3,6 @@ Desafio do Bootcamp Inter Frontend Developer, para criar um contador com JavaScr
 
 Ainda em desenvolvimento.
 
-Próximos objetivos:
+Próximos passos:
 1. Desabilitar botões decrement, quando a quantidade de parcelas for menor do que 10
 2. Incluir o contador em uma Página Web com layout completo.
